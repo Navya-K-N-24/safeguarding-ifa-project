@@ -93,16 +93,42 @@ main {
 }
 
 /* Hero section */
-#hero {
+#hero {    
     height: 900px;
     width: 100%;
     background: url("../images/child-looking-upto-adult.jpg") no-repeat center center/cover;
+    position: relative;
 }
 
 #cover-text {
-    background-color: rgba;
+    background-color: rgb(236, 234, 118, .1);
+    font-size: 130%;
+    position: absolute;
+    top: 30px;   
+    width: 80%;
+    min-height: 60px;
+    padding-top: 40px;
+    padding-left: 10px;
 }
-    
+
+#cover-text > h2, #cover-text > h3 {
+    color: #1d1b1c;
+}
+
+#content-text {
+    background-color: rgb(236, 234, 118, .1);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;   
+    width: 80%;
+    min-height: 60px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#content-text > h3 {
+    color: #1d1b1c;
+}
 
 /* footer */
 footer {
