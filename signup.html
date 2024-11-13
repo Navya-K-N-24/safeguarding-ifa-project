@@ -51,22 +51,22 @@
     </header>
     <!--Main Content-->
     <main>
-        <section id="hero">
-            <div id="cover-text">
-                <h2>Safeguarding-Child Protection</h2>
-                <h3>Training for volunteers</h3>
-            </div>              
-            <div id="content-text"> 
-                <h3>Creating a safe and secure environment for children from</h3>
-                <h6>
-                    <ul>
-                        <li>Physical Abuse</li>
-                        <li>Emotional Abuse</li>
-                        <li>Sexual Abuse</li>
-                        <li>Neglect</li>
-                    </ul>
-                </h5>
-            </div>
+        <div class="hero-image">
+            <img src="assets/images/hero_image.webp" alt="Hero Image">
+        </div>
+        <section id="signup">
+            <form id="signup-form" method="post" action="https://formdump.codeinstitute.net">
+                <h2>Let's get you Volunteered!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email-address" id="email-address" class="text-input" required>
+                <button type="submit" class="join-button">Submit</button>     
+            </form>
         </section>
     </main>
     <!--footer-->
