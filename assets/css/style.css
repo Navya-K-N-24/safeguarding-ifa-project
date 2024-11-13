@@ -1,0 +1,20 @@
+/* General rule */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Header */
+header {
+    background-color: rgb(236, 234, 118);
+}
+
+/* Main */
+main {
+    background-color: rgb(240, 204, 240);
+}
+
+/* footer */
+footer {
+    background-color: rgb(200, 247, 186);
+}
