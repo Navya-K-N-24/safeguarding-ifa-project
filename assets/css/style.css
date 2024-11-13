@@ -17,6 +17,14 @@ body {
     color: 3a3a3a;
     font-family: 'Lato', sans-serif;
 }
+
+h1, h2, h3 {
+    font-family: 'lato', sans-serif;
+    text-transform: capitalize; 
+    letter-spacing: 2px;
+    color: #1d1b1c;
+}
+
 /* Header */
 header {
     background-color: rgb(236, 234, 118);
@@ -34,12 +42,7 @@ header a {
     text-decoration: none;
     color: inherit;
 }
-h1 {
-    font-family: 'lato', sans-serif;
-    text-transform: capitalize; 
-    letter-spacing: 2px;
-    color: #ee4d98;
-}
+
 
 #menu {
     font-size: 110%;
@@ -96,9 +99,15 @@ main {
     background: url("../images/child-looking-upto-adult.jpg") no-repeat center center/cover;
 }
 
+#cover-text {
+    background-color: rgba;
+}
+    
+
 /* footer */
 footer {
-    background-color: rgb(200, 247, 186);
+    background-color: rgb(215, 233, 210);
+    font-size: 130%;
 }
 
 /* Media query for tablets and larger (768px and up) */
