@@ -100,12 +100,6 @@ main {
     position: relative;
 }
 
-.hero-image {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
 #cover-text {
     background-color: rgb(236, 234, 118, .1);
     font-size: 130%;
